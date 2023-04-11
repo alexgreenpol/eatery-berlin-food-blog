@@ -33,7 +33,7 @@ const Header = () => {
                                 </li>
                                 <li className="menu__item">
                                     <NavLink to="/services/recipe-creation">
-                                        Recipe Creation
+                                        Recipe creation
                                     </NavLink>
                                 </li>
                                 <li className="menu__item">
@@ -48,7 +48,7 @@ const Header = () => {
                                 </li>
                                 <li className="menu__item">
                                     <NavLink to="/services/cooking-classes">
-                                        Cooking Classes
+                                        Cooking classes
                                     </NavLink>
                                 </li>
                             </ul>

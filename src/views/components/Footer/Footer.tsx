@@ -39,7 +39,7 @@ const Footer = () => {
                                     Video production
                                 </NavLink>
                                 <NavLink to="/services/recipe-creation">
-                                    Recipe Creation
+                                    Recipe creation
                                 </NavLink>
                                 <NavLink to="/services/food-stylist">
                                     Food stylist
@@ -48,7 +48,7 @@ const Footer = () => {
                                     Collaboration
                                 </NavLink>
                                 <NavLink to="/services/cooking-classes">
-                                    Cooking Classes
+                                    Cooking classes
                                 </NavLink>
                             </nav>
                         </div>
