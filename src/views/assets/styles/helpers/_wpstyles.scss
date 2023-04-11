@@ -1,0 +1,19 @@
+@import "./mixins";
+
+.gallery {
+    display: grid;
+    gap: 15px;
+
+    &.gallery-columns-2 {
+        @include breakpoint(min-width, tablet) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &.columns-default,
+    &.gallery-columns-3 {
+        @include breakpoint(min-width, tablet) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}

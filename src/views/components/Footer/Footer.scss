@@ -1,0 +1,21 @@
+@import "../../assets/styles/helpers/variables.scss";
+@import "../../assets/styles/helpers/mixins.scss";
+
+.site-footer {
+    background-color: $core-light-grey-color;
+    padding: 50px 0;
+
+    @include breakpoint(min-width, desktop) {
+        padding-left: 80px;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__widget-title {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,35 @@
+@import "../../assets/styles/helpers/variables.scss";
+@import "../../assets/styles/helpers/mixins.scss";
+
+.contact-form {
+    width: 100%;
+
+    &__input {
+        padding: 10px 0;
+
+        & label {
+            display: block;
+            font-size: 0.8rem;
+        }
+
+        & input {
+            border: 0;
+            border-bottom: 2px solid $core-black-color;
+            width: 100%;
+            padding: 5px 0;
+
+            &.invalid {
+                border-color: $core-error-color;
+
+                & + span {
+                    color: $core-error-color;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    & .btn {
+        margin-top: 30px;
+    }
+}

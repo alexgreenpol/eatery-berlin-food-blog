@@ -1,0 +1,131 @@
+@import "./helpers/reset";
+@import "./helpers/fonts";
+@import "./helpers/mixins";
+@import "./helpers/typography";
+@import "./helpers/variables";
+@import "./helpers/wpstyles";
+
+body {
+    font-size: 16px;
+    color: $core-black-color;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.pd--xl {
+    padding: 100px 20px;
+}
+
+.pd--l {
+    padding: 70px 20px;
+}
+
+.pd--m {
+    padding: 50px 20px;
+}
+
+.pd--s {
+    padding: 30px 20px;
+}
+
+.pd--xs {
+    padding: 20px;
+}
+
+a {
+    color: $core-primary-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $core-secondary-color;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container--fullwidth {
+    max-width: 100%;
+}
+
+.container--xl {
+    max-width: $largeDesktop;
+}
+
+.container--l {
+    max-width: $mediumDesktop;
+}
+
+.container--m {
+    max-width: $desktop;
+}
+
+.container--s {
+    max-width: $tablet;
+}
+
+.container--xs {
+    max-width: $mobile;
+}
+
+.uppercase {
+    display: inline-block;
+
+    &--mini {
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+    }
+}
+
+.label {
+    &--primary {
+        color: $core-primary-color;
+    }
+}
+
+.page {
+    padding-top: 150px;
+    padding-bottom: 70px;
+
+    @include breakpoint(min-width, desktop) {
+        padding-left: 80px;
+    }
+}
+
+.left-menu {
+    display: none;
+
+    @include breakpoint(min-width, desktop) {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 80px;
+        background-color: $core-secondary-color;
+        padding: 15px;
+        display: block;
+        z-index: 101;
+    }
+}
+
+.stories,
+.services {
+    & h1 {
+        margin-bottom: 30px;
+    }
+}
+
+.contact {
+    & .hero {
+        margin-bottom: 50px;
+    }
+
+    & .contact-form {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,32 @@
+@import "../../assets/styles/helpers/variables.scss";
+@import "../../assets/styles/helpers/mixins.scss";
+
+.expanded-item {
+    padding: 10px 0;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        cursor: pointer;
+    }
+
+    &__text {
+        margin-top: 20px;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 1rem;
+        align-self: center;
+        color: $core-primary-color;
+        font-size: 2rem;
+    }
+}

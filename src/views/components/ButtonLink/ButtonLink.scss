@@ -1,0 +1,21 @@
+@import "../../assets/styles/helpers/variables.scss";
+@import "../../assets/styles/helpers/mixins.scss";
+
+.btn {
+    padding: 12px 20px;
+    border: 1px solid $core-primary-color;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    transition: all 0.3s;
+    font-size: 1.2rem;
+    display: inline-block;
+
+    &:hover {
+        color: $core-secondary-color;
+        border-color: $core-secondary-color;
+    }
+
+    &--rounded {
+        border-radius: 25px;
+    }
+}

@@ -1,0 +1,16 @@
+.heading-box {
+    padding: 0 50px;
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    & > * {
+        width: 100%;
+        max-width: 1000px;
+    }
+}

@@ -1,0 +1,12 @@
+.hero {
+    & .uppercase,
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__subline {
+        margin-bottom: 40px;
+        font-size: 1.2rem;
+        font-family: "Roboto Mono", monospace;
+    }
+}

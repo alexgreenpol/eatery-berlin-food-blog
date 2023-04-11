@@ -1,0 +1,58 @@
+@import "./_mixins.scss";
+@import "./variables.scss";
+
+h1 {
+    font-size: 3rem;
+
+    @include breakpoint(min-width, desktop) {
+        font-size: 4rem;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+
+    @include breakpoint(min-width, desktop) {
+        font-size: 3rem;
+    }
+}
+
+h3 {
+    font-size: 1.5rem;
+
+    @include breakpoint(min-width, desktop) {
+        font-size: 2rem;
+    }
+}
+
+h4 {
+    font-size: 1.4rem;
+
+    @include breakpoint(min-width, desktop) {
+        font-size: 1.8rem;
+    }
+}
+
+h5 {
+    font-size: 1.2rem;
+
+    @include breakpoint(min-width, desktop) {
+        font-size: 1.5rem;
+    }
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    font-family: "Libre Baskerville", serif;
+    color: $core-primary-color;
+    font-weight: 600;
+}

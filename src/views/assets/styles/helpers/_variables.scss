@@ -1,0 +1,31 @@
+// Colors
+$core-primary-color: #4818f4;
+$core-secondary-color: #02deca;
+$core-black-color: #212121;
+$core-white-color: #ffffff;
+$core-light-grey-color: #f5f5f5;
+$core-error-color: #f54336;
+
+// Fonts
+
+$f-weight-regular: 400;
+$f-weight-bold: 600;
+$f-weight-extra-bold: 700;
+
+// Sizes
+
+$mobile: 568px;
+$tablet: 768px;
+$desktop: 1024px;
+$mediumDesktop: 1280px;
+$largeDesktop: 1920px;
+
+// Breakpoints
+
+$breakpoints: (
+    mobile: 568px,
+    tablet: 768px,
+    desktop: 1024px,
+    mediumDesktop: 1280px,
+    largeDesktop: 1920px,
+);
